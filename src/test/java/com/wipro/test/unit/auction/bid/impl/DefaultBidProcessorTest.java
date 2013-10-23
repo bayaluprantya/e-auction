@@ -41,13 +41,9 @@ public class DefaultBidProcessorTest {
         DefaultBidder aaron2 = new DefaultBidder("Aaron", 599, 15, 725);
         DefaultBidder amanda2 = new DefaultBidder("Amanda", 625, 8, 725);
 
-//        DefaultBidder alice3 = new DefaultBidder("Alice", 2500, 500, 3000);
-//        DefaultBidder aaron3 = new DefaultBidder("Aaron", 2800, 201, 3100);
-//        DefaultBidder amanda3 = new DefaultBidder("Amanda", 2501, 247, 3200);
-
-        DefaultBidder alice3 = new DefaultBidder("Alice", 1, 1, 200);
-        DefaultBidder aaron3 = new DefaultBidder("Aaron", 1, 3, 201);
-        DefaultBidder amanda3 = new DefaultBidder("Amanda", 1, 4, 201);
+        DefaultBidder alice3 = new DefaultBidder("Alice", 2500, 500, 3000);
+        DefaultBidder aaron3 = new DefaultBidder("Aaron", 2800, 201, 3100);
+        DefaultBidder amanda3 = new DefaultBidder("Amanda", 2501, 247, 3200);
 
         return Arrays.asList(new Object[][]{
                 {new Item("1", "Bicycle"),
